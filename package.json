@@ -1,25 +1,29 @@
 {
-  "name": "dio-bootcamp-cypress",
-  "version": "1.0.0",
-  "description": "Simple project for use in Cypress bootcamp through Digital Innovation One in partnership with Santander",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jonnathan-ls/dio-bootcamp-cypress.git"
-  },
-  "author": "github.com/jonnathan-ls",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jonnathan-ls/dio-bootcamp-cypress/issues"
-  },
-  "homepage": "https://github.com/jonnathan-ls/dio-bootcamp-cypress#readme",
-  "prettier": {
-    "trailingComma": "es5",
-    "tabWidth": 4,
-    "semi": false,
-    "singleQuote": true
-  }
+    "name": "dio-bootcamp-cypress",
+    "version": "1.0.0",
+    "description": "Simple project for use in Cypress bootcamp through Digital Innovation One in partnership with Santander",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jonnathan-ls/dio-bootcamp-cypress.git"
+    },
+    "author": "github.com/jonnathan-ls",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jonnathan-ls/dio-bootcamp-cypress/issues"
+    },
+    "homepage": "https://github.com/jonnathan-ls/dio-bootcamp-cypress#readme",
+    "prettier": {
+        "trailingComma": "all",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true,
+        "bracketSpacing": true,
+        "printWidth": 140,
+        "endOfLine": "crlf",
+        "arrowParens": "always"
+    }
 }
