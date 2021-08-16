@@ -4,7 +4,8 @@
   "description": "Simple project for use in Cypress bootcamp through Digital Innovation One in partnership with Santander",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jonnathan-ls/dio-bootcamp-cypress/issues"
   },
-  "homepage": "https://github.com/jonnathan-ls/dio-bootcamp-cypress#readme"
+  "homepage": "https://github.com/jonnathan-ls/dio-bootcamp-cypress#readme",
+  "devDependencies": {
+    "cypress": "^7.7.0"
+  }
 }
