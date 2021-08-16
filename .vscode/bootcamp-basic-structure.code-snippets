@@ -3,15 +3,14 @@
         "scope": "javascript,typescript",
         "prefix": "bootcampBasicStructure",
         "body": [
-            "// reference types Cypress",
+            "// reference types cypress",
             "",
-            "// function example fail implementation",
-            "",
-            "// describe",
-            "// sucesso",
-            "// falha",
-            "// desconsidera",
-            "// específico",
+            "// Sucesso",
+            "// Falha",
+            "   // Implementação com falha ",
+            "// Desconsidera",
+            "// Específico",
+            "// Agrupamento",
             ""
         ],
         "description": "Estrutura da mentoria sobre o Cypress para a abordagem inicial"
