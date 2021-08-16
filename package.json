@@ -19,5 +19,11 @@
   "homepage": "https://github.com/jonnathan-ls/dio-bootcamp-cypress#readme",
   "devDependencies": {
     "cypress": "^7.7.0"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": false,
+    "singleQuote": true
   }
 }
