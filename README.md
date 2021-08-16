@@ -1,2 +1,2 @@
-# santander-bootcamp-cypress
-Basic project for use in the bootcamp on Cypress through Digital Innovation One in partnership with Santander
+# dio-bootcamp-cypress
+Simple project for use in Cypress bootcamp through Digital Innovation One in partnership with Santander
