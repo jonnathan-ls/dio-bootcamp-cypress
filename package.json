@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/jonnathan-ls/dio-bootcamp-cypress/issues"
   },
-  "homepage": "https://github.com/jonnathan-ls/dio-bootcamp-cypress#readme"
+  "homepage": "https://github.com/jonnathan-ls/dio-bootcamp-cypress#readme",
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": false,
+    "singleQuote": true
+  }
 }
