@@ -1,0 +1,38 @@
+{
+    "Bookcamp Cart Page": {
+        "scope": "javascript,typescript",
+        "prefix": "bookcampCartPage",
+        "body": [
+            "// <reference types='Cypress' />",
+            "",
+            "// import fixtures books",
+            "",
+            "// function clickButtonBook",
+            "",
+            "describe('[Bootcamp] - Bookcamp - Carrinho', () => {",
+            "    before(() => {",
+            "        // cy.visit",
+            "",
+            "        // [COMPRAR]",
+            "        // cy.contains.click ",
+            "        // cy.contains.parentsUntil.siblings.find.click;",
+            "        // cy.get.click",
+            "",
+            "        // [ALUGAR]",
+            "        // cy.contains.click ",
+            "        // cy.contains.parentsUntil.siblings.find.click;",
+            "        // cy.get.click",
+            "    });",
+            "",
+            "    it('Deve ter sucesso ao deletar um item do carrinho', () => {",
+            "        // cy.contains.parentsUntil.siblings.find.click",
+            "        // cy.get.should [FAIL FIRST]",
+            "    });",
+            "",
+            "    // TODO Deve ter sucesso na conclusão da compra",
+            "});",
+            "$2"
+        ],
+        "description": "Estrutura da mentoria sobre o Cypress para a página 'Carrinho' da aplicação Bookcamp"
+    }
+}

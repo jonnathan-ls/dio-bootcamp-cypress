@@ -1,0 +1,30 @@
+{
+    "Bookcamp Shopping Page": {
+        "scope": "javascript,typescript",
+        "prefix": "bookcampShoppingPage",
+        "body": [
+            "/// <reference types='Cypress' />",
+            "",
+            "describe('[Bootcamp] - Bookcamp - Comprar', () => {",
+            "    before(() => {",
+            "        // cy.visit",
+            "        // cy.get.click",
+            "        // cy.contains.click",
+            "    });",
+            "",
+            "    it('Deve filtrar os livros pelo gênero suspense', () => {",
+            "        // cy.get | cy.click{multiple} | cy.check | cy.get.as",
+            "        // cy.get.each | cy.wrap.should [FAIL FIRST]",
+            "    });",
+            "",
+            "    it.only('Deve ordenar os livros por ordem crescente', () => {",
+            "        // cy.get | cy.click | cy.get.as",
+            "        // cy.get.each | cy.<new-command>",
+            "        // cy.wrap.should [FAIL FIRST]",
+            "    });",
+            "});",
+            "$2"
+        ],
+        "description": "Estrutura da mentoria sobre o Cypress para a página 'Comprar' da aplicação Bookcamp"
+    }
+}

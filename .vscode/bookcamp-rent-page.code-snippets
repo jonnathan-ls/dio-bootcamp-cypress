@@ -1,0 +1,29 @@
+{
+    "Bookcamp Rent Page": {
+        "scope": "javascript,typescript",
+        "prefix": "bookcampRentPage",
+        "body": [
+            "/// <reference types='Cypress' />",
+            "",
+            "// import fixture books",
+            "",
+            "describe('[Bootcamp] - Bookcamp - Alugar', () => {",
+            "",
+            "    before(() => {",
+            "        // cy.visit | cy.contains.click",
+            "    });",
+            "",
+            "    it('Deve ter êxito ao adicionar um livro para locação', () => {",
+            "        // cy.get.contains.parents.find.as",
+            "        // cy.get.clear.type",
+            "        // cy.click",
+            "        // cy.contains.should [FAIL FIRST]",
+            "    });",
+            "",
+            "    // TODO: Deve validar o valor total de um item adicionado ao carrinho",
+            "});",
+            "$2"
+        ],
+        "description": "Estrutura da mentoria sobre o Cypress para a página 'Alugar' da aplicação Bookcamp"
+    }
+}

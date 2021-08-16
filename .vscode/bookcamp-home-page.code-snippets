@@ -1,0 +1,27 @@
+{
+    "Bookcamp Home Page": {
+        "scope": "javascript,typescript",
+        "prefix": "bookcampHomePage",
+        "body": [
+            "/// <reference types='Cypress' />",
+            "",
+            "describe('[Bootcamp] Bookcamp - Home Page', () => {",
+            "    before(() => {",
+            "        // cy.visit",
+            "    });",
+            "",
+            "    it('Deve validar o titulo da página Bookcamp', () => {",
+            "        // querySelector",
+            "        // cy.title.then",
+            "        // cy.title.should",
+            "    });",
+            "",
+            "    it.skip('Deve validar a opção comprar como primeiro item do menu', () => {",
+            "        // cy.get by playground",
+            "    });",
+            "});",
+            "$2"
+        ],
+        "description": "Estrutura da mentoria sobre o Cypress para a página 'Home' da aplicação Bookcamp"
+    }
+}
