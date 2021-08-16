@@ -1,0 +1,19 @@
+{
+    "Bootcamp Basic Structure": {
+        "scope": "javascript,typescript",
+        "prefix": "bootcampBasicStructure",
+        "body": [
+            "// reference types Cypress",
+            "",
+            "// function example fail implementation",
+            "",
+            "// describe",
+            "// sucesso",
+            "// falha",
+            "// desconsidera",
+            "// específico",
+            ""
+        ],
+        "description": "Estrutura da mentoria sobre o Cypress para a abordagem inicial"
+    }
+}
