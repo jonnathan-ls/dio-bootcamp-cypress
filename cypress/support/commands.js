@@ -23,3 +23,11 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+/**
+ * Deve adicionar um novo comando ao objeto do cypress
+ * @param priceValue string do valor em formato moeda
+ */
+Cypress.Commands.add('currencyToNumber', (priceValue) => {
+    return Number(priceValue.replace(/[^0-9,]/g, '').replace(',', '.'));
+});
