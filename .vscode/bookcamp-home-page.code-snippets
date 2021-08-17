@@ -5,6 +5,8 @@
         "body": [
             "/// <reference types='Cypress' />",
             "",
+            "// impor file json (url bookcamp)",
+            "",
             "describe('[Bootcamp] Bookcamp - Home Page', () => {",
             "    before(() => {",
             "        // cy.visit",
@@ -17,7 +19,10 @@
             "    });",
             "",
             "    it.skip('Deve validar a opção comprar como primeiro item do menu', () => {",
-            "        // cy.get by playground",
+            "        // cy.contains",
+            "        // selector playground",
+            "        // cy.get.should",
+            "        // cy.get.contains",
             "    });",
             "});",
             "$2"
