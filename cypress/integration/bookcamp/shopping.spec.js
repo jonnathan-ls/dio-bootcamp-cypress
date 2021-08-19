@@ -24,6 +24,7 @@ describe('[Bootcamp] - Bookcamp - Comprar', () => {
          * selecionar por determinado gênero e clicar em filtrar
          */
         cy.get('.filter-label').click();
+        // cy.get('.form-check-label').each($el => $el.click());
         cy.get('.form-check-label').click({ multiple: true });
         cy.get('#Suspense').click();
         cy.contains('Aplicar Filtro').click();
