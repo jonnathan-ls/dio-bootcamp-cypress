@@ -15,7 +15,7 @@
             "",
             "    it('Deve ter êxito ao adicionar um livro para locação', () => {",
             "        // Deve encontrar um livro e utilizando a hierarquia do DOM encontrar o elemento",
-            "        //que contempla todos as 'tags' filhas para navegar até o botão de quantidade para alugar",
+            "        // que contempla todos as 'tags' filhas para navegar até o botão de quantidade para alugar",
             "",
             "        // Deve obter o campo de entrada de um livro atribuído com alias, limpar o conteúdo",
             "        // e então inserir um valor para também na hierarquia do DOM encontrar o botão de adicionar ao carrinho, concluindo a operação",

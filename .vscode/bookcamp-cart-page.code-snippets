@@ -19,7 +19,7 @@
             "        // Deve encontrar determinado livro e pela hierarquia do DOM",
             "        // navegar até o botão de deletar um livro do carrinho",
             "",
-            "        // Deve validar se um livro não exite no carrinho [FAIL FIRST]",
+            "        // Deve validar se um livro não existe no carrinho [FAIL FIRST]",
             "    });",
             "",
             "    // TODO: Deve garantir que o valor total do carrinho está correto após deletar algum livro",
