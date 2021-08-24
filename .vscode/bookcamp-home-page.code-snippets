@@ -1,7 +1,7 @@
 {
     "Bookcamp Home Page": {
         "scope": "javascript,typescript",
-        "prefix": "bookcampHomePage",
+        "prefix": "bookcamp-home-page",
         "body": [
             "/// <reference types='Cypress' />",
             "",

@@ -1,7 +1,7 @@
 {
     "Bookcamp Rent Page": {
         "scope": "javascript,typescript",
-        "prefix": "bookcampRentPage",
+        "prefix": "bookcamp-rent-page",
         "body": [
             "/// <reference types='Cypress' />",
             "",

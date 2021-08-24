@@ -1,7 +1,7 @@
 {
     "Bookcamp Shopping Page": {
         "scope": "javascript,typescript",
-        "prefix": "bookcampShoppingPage",
+        "prefix": "bookcamp-shopping-page",
         "body": [
             "/// <reference types='Cypress' />",
             "",

@@ -1,7 +1,7 @@
 {
     "Bootcamp Basic Structure": {
         "scope": "javascript,typescript",
-        "prefix": "bootcampBasicStructure",
+        "prefix": "bootcamp-basic-structure",
         "body": [
             "// reference types cypress",
             "",
