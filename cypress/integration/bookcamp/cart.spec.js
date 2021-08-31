@@ -11,7 +11,7 @@ function clickButtonAddCart(bookName) {
 }
 
 describe('[Bootcamp] - Bookcamp - Carrinho', () => {
-    before(() => {
+    beforeEach(() => {
         cy.visit('/');
         /**
          * Deve navegar para a página de 'Comprar' e adicionar um livro ao carrinho
@@ -34,13 +34,29 @@ describe('[Bootcamp] - Bookcamp - Carrinho', () => {
          * navegar até o botão de deletar um livro do carrinho
          */
         cy.contains(DOM_CASMURRO).parents('.book-cart').find('.fas').click();
-
         /**
          * Deve validar se um livro não exite no carrinho [FAIL FIRST]
          */
         cy.contains(DOM_CASMURRO).should('not.exist');
     });
 
-    // TODO: Deve garantir que o valor total do carrinho está correto após deletar algum livro
+    it('Deve garantir que o valor total do carrinho está correto após deletar algum livro', () => {
+        cy.get('.total-value').then(($totalValue) => {
+            cy.currencyToNumber($totalValue.text()).then((totalPricePrevious) => {
+                cy.contains(O_PEQUENO_PRINCIPE)
+                    .parents('.book-content')
+                    .find('.total-item')
+                    .then(($totalItem) => {
+                        cy.contains(O_PEQUENO_PRINCIPE).parents('.book-cart').find('.fas').click();
+                        cy.currencyToNumber($totalItem.text()).then((priceItem) => {
+                            cy.get('.total-value').then(($totalAfterUpdate) => {
+                                cy.currencyToNumber($totalAfterUpdate.text()).should('equal', totalPricePrevious - priceItem);
+                            });
+                        });
+                    });
+            });
+        });
+    });
+
     // TODO: Deve ter sucesso na conclusão da compra e validação de limpeza no carrinho
 });
