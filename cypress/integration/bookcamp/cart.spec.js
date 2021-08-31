@@ -58,5 +58,12 @@ describe('[Bootcamp] - Bookcamp - Carrinho', () => {
         });
     });
 
-    // TODO: Deve ter sucesso na conclusão da compra e validação de limpeza no carrinho
+    it('Deve ter sucesso na conclusão da compra e validação de limpeza no carrinho', () => {
+        cy.get('.total > .btn').click();
+        cy.get('#email').type('email@qualquer.com');
+        cy.get('.modal-footer > .btn-primary').click();
+        cy.contains('Compra Executada com sucesso!').should('exist');
+        cy.get('.navbar-nav').contains('Meu carrinho').click();
+        cy.contains('Nenhum item adicionado ao carrinho ainda.').should('exist');
+    });
 });
