@@ -4,7 +4,9 @@
     "description": "Simple project for use in Cypress bootcamp through Digital Innovation One in partnership with Santander",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "cy:open": "cypress open",
+        "cy:run": "cypress run"
     },
     "repository": {
         "type": "git",
@@ -25,5 +27,8 @@
         "printWidth": 140,
         "endOfLine": "crlf",
         "arrowParens": "always"
+    },
+    "devDependencies": {
+        "cypress": "^7.7.0"
     }
 }

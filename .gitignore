@@ -1,2 +1,6 @@
 node_modules
 debug.log
+
+# Cypress RUN
+cypress/screenshots/
+cypress/videos/
