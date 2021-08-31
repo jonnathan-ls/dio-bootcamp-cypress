@@ -8,6 +8,10 @@ Para consultar os slides da apresentação, acesse o link:
 
 Obrigada pela participação e bons estudos!
 
+> Video da live: https://www.youtube.com/watch?v=OQxhHgEMmbU
+
+[![Aplicando testes no front-end com Cypress na prática](./video-image-youtube.png)](https://www.youtube.com/watch?v=OQxhHgEMmbU)
+
 # Conteúdo da apresentação
 
 ## Parte I: Conceito 
