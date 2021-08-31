@@ -3,7 +3,7 @@
 /**
  * Deve importar um livro de um arquivo .js
  */
-import { DOM_CASMURRO } from '../../fixtures/books';
+import { DOM_CASMURRO, O_PEQUENO_PRINCIPE } from '../../fixtures/books';
 
 describe('[Bootcamp] - Bookcamp - Alugar', () => {
     before(() => {
@@ -35,5 +35,17 @@ describe('[Bootcamp] - Bookcamp - Alugar', () => {
         cy.contains(DOM_CASMURRO).should('exist');
     });
 
-    // TODO: Deve validar o valor total de um item adicionado ao carrinho
+    it('Deve validar o valor total de um item adicionado ao carrinho', () => {
+        cy.get('.book-value > :nth-child(1)').then(($bookValue) => {
+            cy.currencyToNumber($bookValue.text()).then((value) => {
+                cy.get('.rent-days-label').then(($days) => {
+                    cy.get('.total-item > span').then(($total) => {
+                        const totalPriceCalculated = value * Number($days.text());
+                        cy.currencyToNumber($total.text()).should('equal', totalPriceCalculated);
+                        // Obs.: a lógica do cálculo da aplicação para locação de um livro está errada
+                    });
+                });
+            });
+        });
+    });
 });
